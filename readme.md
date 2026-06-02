@@ -18,5 +18,5 @@ GIT Commands
 3. git add - stages a specific changed file to prepare for the next commit; can be combined with the -all flag to stage every edited file
 4. git checkout - switches to another branch as the working directory; can also be used for restoring files
 5. git log - shows the reachable commit history for the current active branch
-6. git fetch --all  - fetches from all the branches on the Git Remote while not modifying local branches; may be used to check for any new changes to the remote branches
+6. git fetch - fetches from a branch on the Git Remote while not modifying the local branch; may be used to check for any new changes to the remote branche; may be used with the --all flag to fetch from all remote branches
 7. git pull - fetches and merges changes from the remote repository's branch to update the local branch. 
